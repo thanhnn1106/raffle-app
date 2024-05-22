@@ -7,13 +7,13 @@
 - Amount = 1 => 1 entry
 - Unit test for TransactionService
 
-**To do list:**
+**To-do list:**
 
-- Create DB transaction middleware. (For any route that have multiple updating query, we should use DB transaction to ensure data consistency).
-- Create cronjob to handle raffle action on certain time.
-- Create API documentation using Swagger or OpenAPI tool.
-- Write Unit Test for Repository layer.
-- Write intergration test for Buy controller.
+- Create DB transaction middleware. (For any route that has multiple updating queries, we should use DB transaction to ensure data consistency).
+- Create a cronjob to handle raffle action at a certain time.
+- Create API documentation using Swagger or the OpenAPI tool.
+- Write Unit Test for the Repository layer.
+- Write integration test for Transaction controller.
 
 **Q & A**
 
