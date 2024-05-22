@@ -3,6 +3,8 @@
 **Features:**
 
 - Buy controller: POST http://localhost/api/buy
+- Required fields: user_id, amount
+- Amount = 1 => 1 entry
 - Unit test for TransactionService
 
 **To do list:**
