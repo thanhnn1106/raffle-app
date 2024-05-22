@@ -16,6 +16,6 @@ class TransactionController extends Controller
     public function buy(BuyRequest $request): JsonResponse
     {;
         $result = $this->transactionService->buy($request->all());
-        return response()->json($result['message'], $result['status']);
+        return response()->json($result, $result['status']);
     }
 }
