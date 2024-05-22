@@ -3,7 +3,7 @@
 **Features:**
 
 - Buy controller: POST http://localhost/api/buy
-- Required fields: user_id, amount
+- Required fields: email, amount. (I have created a user with email: puppy@betterworld.org)
 - Amount = 1 => 1 entry
 - Unit test for TransactionService
 
